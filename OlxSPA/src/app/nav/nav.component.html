@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" routerLink="/home">OlxV2</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/myprods">My products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/add">Create a offer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/wishlist"><i class="fa fa-heart"></i> WishList</a>
+        </li>
+      </ul>
+      <form #loginForm="ngForm" (ngSubmit)="onLogin()" class="form-inline my-2 my-lg-0" *ngIf="!authService.isLogged()">
+        <label for="username">Username</label>
+        <input type="text" name="username" [(ngModel)]="user.username" class="form-control">
+        <label for="password">Password</label>
+        <input type="text" name="password" [(ngModel)]="user.password" class="form-control">
+        <button type="submit" class="btn btn-success">Login</button>
+    </form>
+    <div class="form-inline my-2 my-lg-0" *ngIf="authService.isLogged()">
+        <a routerLink="/myprods" class="mr-3"><i class="fa fa-user"></i> Welcome {{ authService.decodedToken['unique_name'] | titlecase }}  </a>
+        <a routerLink="/home" (click)="onLogout()"><i></i>Logout </a>
+    </div>
+  </nav>
+

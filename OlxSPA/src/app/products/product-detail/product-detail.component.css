@@ -1,0 +1,5 @@
+.row {
+    background: rgb(234,237,157);
+    background: linear-gradient(90deg, rgba(234,237,157,1) 0%, rgba(252,252,226,1) 50%, rgba(234,237,157,1) 100%);
+    border-radius: 10px;
+}

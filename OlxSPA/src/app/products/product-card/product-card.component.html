@@ -1,0 +1,32 @@
+<div class="card mb-4 ml-2">
+  <div class="card-img-wrapper" style="width: 300px;">
+      <img [routerLink]="['/detail/', product.id]" (click)="onAssignProduct()" class="card-img-top" style="width: 300px; height: 170px;"  [src]="this.product.photos.length === 0 ? '/assets/default.png' : product.photos[0].path" alt="PHOTO">
+      <ul class="list-inline member-icons animate text-center">
+          <li class="list-inline-item">
+              <button class="btn btn-primary">
+                  <i class="fa fa-envelope"></i>
+              </button>
+              <button class="btn btn-primary" type="button" (click)="addToWishList()">
+                <i class="fa fa-heart"></i>
+            </button>
+          </li>
+      </ul>
+  </div>
+  <ul class="text-right" *ngIf="userService.isOnWishList">
+    <li class="list-inline-item mr-3">
+        <button class="btn btn-primary" type="button" routerLink='/wishlist' (click)="deleteFromWishList()">
+            <i class="fa fa-times"></i>
+        </button>
+      </li>
+    </ul>
+  <div class="card-body p-1">
+      <h5 class="card-title text-center mb-1">
+          <i class="fa fa"></i>
+          {{ product.title }}
+      </h5>
+      <h6 class="card-text text-muted text-center">
+        <i class="fas fa-coins"></i>
+          {{ product.price }}
+      </h6>
+  </div>
+</div>

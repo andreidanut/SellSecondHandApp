@@ -1,0 +1,14 @@
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\bin\Debug\netcoreapp2.1\OlxAPI.deps.json
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\bin\Debug\netcoreapp2.1\OlxAPI.runtimeconfig.json
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\bin\Debug\netcoreapp2.1\OlxAPI.runtimeconfig.dev.json
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\bin\Debug\netcoreapp2.1\OlxAPI.dll
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\bin\Debug\netcoreapp2.1\OlxAPI.pdb
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.RazorAssemblyInfo.cache
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.RazorAssemblyInfo.cs
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.dll
+C:\Users\Andrei\Desktop\OlxApp\OlxAPI\obj\Debug\netcoreapp2.1\OlxAPI.pdb

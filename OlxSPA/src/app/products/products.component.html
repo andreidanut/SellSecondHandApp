@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row  d-flex justify-content-center mb-4">
+    <form #form="ngForm" (ngSubmit)="getProducs()">
+      <input type="text" name="search" class="form-control" placeholder="Search..." [(ngModel)]="search">
+      <!-- <button type="submit" class="btn btn-primary">Search</button> -->
+    </form>
+    
+  </div>
+  <div class="row">
+    <app-product-card *ngFor="let prod of products | searchPipe:search" [product]="prod"></app-product-card>
+  </div>
+</div>
